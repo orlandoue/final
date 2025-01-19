@@ -1,0 +1,233 @@
+//ONBOARDING
+const chooseYourRole = 'Choose Your Role';
+const rolePrompt = 'Are you here to play and improve your game, or to officiate and ensure fair play? Select your role to get started.';
+const joinAsPlayer = 'Join as Player';
+const joinAsReferee = 'Join as Referee';
+const gatherFriends = 'Gather your friends and form a team';
+const setUpMatch = 'Easily set up a match or join an existing one. Invite friends or find your new opponents based on your skill level.';
+const gettingStarted = 'Getting Started';
+const trackYourProgress = 'Track Your Progress';
+const monitorProgress = 'Monitor your match history and performance stats. Climb the leaderboards and unlock achievements as you improve.';
+const next = 'Next';
+const competeInRankedMatches = 'Compete in Ranked Matches';
+const challengeYourself = 'Challenge yourself with ranked matches. Compete against players of similar skill levels, earn rankings, and rise through the competitive tiers to become a top player.';
+const letsGetStarted = 'Let’s Get Started';
+const setupMatchesTrackProgress = 'Set up matches, and track your progress. Compete in ranked games and climb the leaderboards to showcase your skills.';
+const register = 'Register';
+const login = 'Login';
+const termsOfService = 'Terms of Services';
+const privacyPolicy = 'Privacy Policy';
+const agreementPrompt = 'By selecting one or the other, you are agreeing to the ';
+
+///AUTH
+
+const welcomeBack = 'Welcome Back';
+const enterCredentials = 'Enter your credentials to access your account and continue your matchmake.';
+const yourEmailHere = 'Your email here...';
+const yourpasswordhere='Your password here...';
+const forgetPassword = 'Forget password?';
+const rememberMe = 'Remember me';
+const orContinueWith = 'or continue with';
+const dontHaveAccount = 'Don’t have an account?';
+const createAccount = 'Create account';
+const forgotPasswordTitle = 'Forgot Password';
+const forgotPasswordPrompt = 'Forgot your password? No worries! Enter your email below to receive a reset link.';
+const sendPasswordResetLink = 'Send Password Reset Link';
+const backTo = 'Back to';
+const createAnAccount = 'Create an account';
+const startFindingMatches = 'Start finding matchmake that match your skills and preferences. Start climbing ranks now.';
+const yourNameHere = 'Your name here...';
+const createPassword = 'Create password';
+const retypePassword = 'Re-type password';
+const agreeTo = 'I agree to ';
+const terms='Terms & Conditions';
+const alreadyHaveAccount = 'Already have an account?';
+const otpVerification = 'OTP Verification';
+const enterOtpPrompt = 'Enter the One-Time Password (OTP) sent to your email to verify your account.';
+const resendCode = 'Resend Code';
+const confirm = 'Confirm';
+const success = 'Success!';
+const accountVerifiedPrompt = 'Your account has been verified, and you\'re all set to explore the app.';
+const identityVerification = 'Identity Verification';
+const chooseDocumentPrompt = 'Please choose the document you’d like to use to verify your identity.';
+const passport = 'Passport';
+const idCard = 'ID Card';
+const driversLicense = 'Driver’s License';
+const continuee='Continue';
+const scanDocumentFront = 'Scan Document Front';
+const scanFrontPagePrompt = 'Scan the front page of your document to complete the verification process.';
+const holdStill = 'Hold Still!';
+const capture = 'Capture';
+const scanDocumentBack = 'Scan Document Back';
+const scanBackPagePrompt = 'Scan the back page of your document to complete the verification process.';
+const livePhotoScan = 'Live Photo Scan';
+const livePhotoScanPrompt = 'Scan your face using the front camera to complete the identity verification.';
+const failed = 'Failed!';
+const retryCapturePrompt = 'Try not to shake the camera while capturing the photo of the ID, and make sure the photo is clear.';
+const tryAgain = 'Try again';
+const documentsUploadedSuccessfully = 'Documents have been uploaded successfully. It will take a few moments for verification to be completed.';
+///PROFILE
+
+const profileInformation = 'Profile Information';
+const personalInformation = 'Personal Information';
+const upload='Upload';
+const country = 'Country';
+const dateOfBirth = 'Date of birth';
+const gender = 'Gender';
+const skillLevel = 'Beginner, Intermediate, Professional';
+const favoritePosition = 'Favorite Position';
+const replace = 'Replace';
+const remove = 'Remove';
+const skillsAndMoreInfo = 'Skills & more info';
+const profileSetupComplete = 'Profile Setup Complete';
+const profileUpdatedMessage = 'Your profile information has been updated and completed. Now you can continue to the app.';
+
+///HOME
+
+const hi = 'Hi, ';
+const sportsTeam = 'Sports Team';
+const courtsDetected = '3 Courts around you detected';
+const playNow = 'Play Now';
+const gatherCompanions = 'Gather your companions & form your official team';
+const invite = 'Invite';
+const finalPrize = 'Final Accumulated Prize ';
+const winGreatInvitation = 'Win Great Invitation To The Final';
+const rankingseason='Ranking Season 1';
+const search = 'Search Courts/Matches/Events';
+const sports = 'Sports';
+const tennis = 'Tennis';
+const matches = 'Matches';
+const locationradius='Location Radius';
+const applyfilters= 'Apply Filters';
+const away = 'away';
+const description = 'Description';
+const marioCourtDescription = 'Mario Court offers top-notch tennis facilities with well-maintained courts. Enjoy personalized sessions and social play events in a friendly, competitive environment. Whether you\'re a beginner or a pro, Mario Court caters to all skill levels.';
+const gallery = 'Gallery';
+const viewDetails = 'View Details';
+const direction = 'Direction';
+const notifications = 'Notifications';
+const reviews = 'Reviews';
+const profileInfo = 'Profile Info';
+const ranking = 'Ranking';
+const gamesPlayed = 'Games Played';
+const win = 'win';
+const lose = 'lose';
+const playerSkill = 'Player skill';
+const professional = 'Professional';
+const left = 'left';
+const linkedTeam = 'Linked Team';
+const nextMatch = 'Next Match';
+const noDatesAvailable = 'No Dates Available';
+const schedule = 'Schedule';
+const sendNotification = 'Send notification to the team';
+
+///matchmaking
+
+const quickPlay = 'Quick Play';
+const matchesAvailable = '15 matches available';
+const competitiveMatch = 'Competitive Match';
+const manageMyMatches = 'Manage My Matches';
+const matchDetail = 'Match Detail';
+const datetime='Choose day&time';
+const vs = 'VS';
+const searchingForMatch = 'Searching for match...';
+const price = 'Price';
+const play = 'Play';
+const invitationLink = 'Invitation Link';
+const invitationLinkDescription = 'Below is the invitation link to join the match, you can share it with friends and other players.';
+const reviewSummary = 'Review Summary';
+const matchType = 'Match type';
+const friendly = 'Friendly';
+const courtt = 'Court';
+const totall = 'Total';
+const startPoint = 'Start Point';
+const endPoint = 'End Point';
+const startJourney = 'Start Journey';
+const manageMatch = 'Manage Match';
+const cancelMatch = 'Cancel Match';
+const areYouSure = 'Are you sure?';
+const cancelOrderPrompt = 'You are about to cancel an order request. Please mention a valid reason for cancelling this order.';
+const writeReasonHere = 'Write reason here . . .';
+const yes = 'Yes';
+const no = 'No';
+const matchCancelled = 'Match Cancelled';
+const matchCancelledMessage = 'Your match has been marked as cancelled.';
+const car='Car';
+const bike='Bike';
+const walk='Walk';
+const matchtime='Match Time';
+const you='You';
+const matchtype='Match type';
+const Amountt='Amount';
+const tax='Tax';
+
+
+
+//// EVENTS NEAR BY
+const  tournament = "Tournament";
+const  eventNearby = "Event Nearby";
+const  eventDetails = "Event Details";
+const  participants = "Participants";
+const  referee = "Referee";
+const  startingFrom = "Starting from";
+const  joinEvent = "Join Event";
+const  selectPaymentMethod = "Select Payment method";
+const  addCard = "Add Card";
+const  addCardDetails = "Add Card Details";
+const  cardHolderName = "Card Holder Name";
+const  cardNumber = "Card Number";
+const  expiryDate = "Expiry Date";
+const  cvvCode = "CVV Code";
+const  amount = "Amount";
+const  taxx = "Tax";
+const  confirmPayment = "Confirm Payment";
+const  paymentSuccess = "Your payment has been successful";
+
+//HISTORY
+
+const  history = "History";
+const  myRank = "My Rank";
+const  seasonRankings = "Season Rankings";
+const  view = "View";
+const  myPoints = "My Points";
+const  totalMatches = "Total Matches";
+const  youWon = "You Won";
+const  wonMatches = "Won Matches";
+const  youLose = "You Lose";
+const  recentMatches = "Recent Matches";
+const  participateToFinal = "Participate in competitive mode to be invited to the Final";
+const  monthlyPoints = "Monthly Points";
+const  weeklyPoints = "Weekly Points";
+const  bestOfTheMonth = "Best of the month";
+const  weeklyTop = "WEEKLY TOP";
+const  explore = "Explore";
+const  virtualStore = "Virtual Store";
+const  orderSummary = "Order Summary";
+const buy='Buy';
+const simpleticket= 'Simple Ticket';
+const totalinvestement='Total investment';
+const lastmonthrank='Last month rank';
+///PROFILE
+
+const  myProfile = "My Profile";
+const  editProfile = "Edit Profile";
+const  myQRCode = "My QR Code";
+const  security = "Security";
+const  notification = "Notification";
+const  helpCenter = "Help Center";
+const  logout = "Logout";
+const  skills = "Skills";
+const  faceID = "Face ID";
+const  biometricID = "Biometric ID";
+const  currentPassword = "Current Password";
+const  createNewPassword = "Create new password";
+const  generalNotifications = "General Notifications";
+const  events = "Events";
+
+const  offers = "Offers";
+const  news = "News";
+const  payment = "Payment";
+const  vibrate = "Vibrate";
+const  others = "Others";
+const  faqs = "FAQ’s";
+const  contactUs = "Contact Us";
